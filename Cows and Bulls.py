@@ -2,6 +2,7 @@ import random
 g=random.randint(100,999)
 s=str(g)
 ch=0
+print("Cows means A correct digit in the wrong position\nBulls means A correct digit in the exact correct position.")
 while ch<10:
     gu=int(input("Enter your guess:"))
     co=str(gu)
