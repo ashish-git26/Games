@@ -14,3 +14,5 @@ while c<7:
         else:
             print("Guess is low")
     c+=1
+if c==7:
+    print("You failed to guess the number",i)
