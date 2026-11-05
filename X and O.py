@@ -18,11 +18,11 @@ dis(l)
 print("\nPlayer 1 is X and Player 2 is O")
 for i in range(9):
     if i%2==0:
-        print("Player 1's turn")
+        print("\nPlayer 1's turn")
         n=int(input("Enter no where you want to place X:"))
         if n not in l:
             print("Enter correct  place")
-            i-=1
+            i=i-1
         else:
             for k in l:
                 if k==n:
@@ -37,7 +37,7 @@ for i in range(9):
         n=int(input("Enter no where you want to place O:"))
         if n not in l:
             print("Enter correct  place")
-            i-=1
+            i=i-1
         else:
             for k in l:
                 if k==n:

@@ -25,6 +25,12 @@ while True:
             print("YOU WIN")
         else:
             print("YOU LOOSE")
+        if ch=="R":
+            print("My choice: Rock")
+        elif ch=="S":
+            print("My choice: Siccor")
+        else:
+            print("My choice: Paper")
         y=input("DO you want to continue")
         if y=="N" or y=="n":
             break;
